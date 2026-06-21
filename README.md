@@ -1,6 +1,6 @@
 # Retail Sales ETL Pipeline using PySpark
 
-End-to-end Data Engineering portfolio project: a fully modular ETL pipeline that ingests 100,000 synthetic Indian retail transactions, applies rigorous data quality checks, computes business KPIs using both the PySpark DataFrame API and Spark SQL, loads results into MySQL, and exports Power BI–ready CSV reports — all instrumented with structured logging.
+ A fully modular ETL pipeline that ingests 100,000 synthetic Indian retail transactions, applies rigorous data quality checks, computes business KPIs using both the PySpark DataFrame API and Spark SQL, loads results into MySQL, and exports Power BI–ready CSV reports instrumented with structured logging.
 
 ---
 
