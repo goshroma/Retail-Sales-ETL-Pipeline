@@ -1,0 +1,16 @@
+# Core ETL engine
+pyspark==3.5.1
+
+# Dataset generation, small-table export, and notebook visualization
+pandas==2.2.2
+numpy==1.26.4
+matplotlib==3.8.4
+
+# MySQL load step (src/load_to_mysql.py uses Spark's JDBC writer directly;
+# this is only needed if you'd rather query/verify the table from plain
+# Python instead of a MySQL client)
+mysql-connector-python==8.4.0
+
+# Notebook execution (notebooks/exploratory_analysis.ipynb)
+jupyter==1.0.0
+notebook==7.1.3
